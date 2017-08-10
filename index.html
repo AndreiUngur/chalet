@@ -37,9 +37,9 @@
             <ul class="nav navbar-nav">
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#body-1">About</a></li>
-                <li><a href="#body-2">Images</a></li>
-                <li><a href="#body-3">Reservations</a></li>
+                <li class="About"><a href="#AboutContent">About</a></li>
+                <li class="Images"><a href="#ImagesContent">Images</a></li>
+                <li class="Reservations"><a href="#ReservationsContent" >Reservations</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -54,24 +54,24 @@
 
     <div id="main-body">
         <div class="text-center headers">
-            <h1 class="header" id="About"> About </h1>
-            <h1 class="header" id="Images"> Images </h1>
-            <h1 class="header" id="Reservations"> Reservations </h1>
-            <hr />
+            <h1 class="header About"> About </h1>
+            <h1 class="header Images"> Images </h1>
+            <h1 class="header Reservations"> Reservations </h1>
+            <hr id="slider" />
         </div>
 
-    A bunch of text <br><br>
-    A bunch of text <br><br>
-    A bunch of text <br><br>
-    A bunch of text <br><br>
-    A bunch of text <br><br>
-    A bunch of text <br><br>
-    A bunch of text <br><br>
-    A bunch of text <br><br>
-    A bunch of text <br><br>
-    A bunch of text <br><br>
-    A bunch of text <br><br>    
-    A bunch of text <br><br>
+        <div class="content text-center" id="AboutContent">
+            Blablabla a bunch of text
+        </div>
+
+        <div class="content text-center" id="ImagesContent">
+            Some slideshow of images
+        </div>
+
+        <div class="content text-center" id="ReservationsContent">
+            Some calendar
+        </div>
+        </div>
     </div><!--/#main-body-->
 
     <footer id="footer">
@@ -79,9 +79,9 @@
     </footer>
 
     <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/navbar-scroll.js"></script>
     <script src="js/button-scroll.js"></script>
-    <script src="js/content.js"></script>
 
 </body>
 

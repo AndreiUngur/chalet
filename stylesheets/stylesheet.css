@@ -1,3 +1,14 @@
+.content{
+	margin-top:20vh;
+	margin-bottom:10vh;
+	display:none;
+}
+
+#AboutContent{
+	display:block;
+}
+
+
 .jumbotron{
 	background-image: url("../images/room.jpg");
 	background-attachment:fixed;
@@ -23,14 +34,14 @@
 	margin-right:10vw;
 }
 
-#About{
+.About{
 	margin-left:0;
 }
 
-#Images:hover ~ hr{
+.Images:hover ~ hr{
 	margin-left:29%;
 }
-#Reservations:hover ~ hr{
+.Reservations:hover ~ hr{
 	margin-left:62%;
 }
 
