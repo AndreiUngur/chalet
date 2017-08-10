@@ -1,6 +1,6 @@
 .content{
 	margin-top:20vh;
-	margin-bottom:10vh;
+	margin-bottom:30vh;
 	display:none;
 }
 
@@ -26,6 +26,7 @@
 .headers{
 	margin-top:10vh;
 	margin-left:10vw;
+	cursor:pointer;
 }
 
 .header{
