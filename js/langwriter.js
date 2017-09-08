@@ -71,6 +71,8 @@ function writeData(lang){
 	language = lang;
 	//About
 	$('#AboutText').text(lang_data[lang].about);
+	$('#PleaseNote').text(lang_data[lang].please_note);
+	$('#ThankYou').text(lang_data[lang].thank_you);
 	$('#AboutTitle').text(lang_data[lang].abouttitle);
 
 	//Images

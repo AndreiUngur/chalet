@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <!--Stylesheets-->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="stylesheets/stylesheet.css" rel="stylesheet"/>
@@ -61,15 +64,58 @@
         </div>
 
         <div class="content text-center" id="AboutContent">
-            <p id="AboutText">Blablabla a bunch of text</p>
+            <p id="AboutText">Beautiful chalet in the Mont-Tremblant area for rent ! It has 4 big recently renovated rooms, in excellent condition, with 5 beds : 4 Queen and 1 double, as well as a sofa bed fitting two. The terrain also has 2 ponds and 20 acres of forest for strolls. The chalet has a restroom and a bathroom. Contact us to rent it (up to 8 people, 3 nights minimum) for the low price of $125 per week day, and $300 per week-end day!</p>
+            <p id="PleaseNote">PLEASE NOTE: To maintain the great condition of the chalet, please note that it is non-smoking and no animals inside the chalet. Also, please abstain from irresponsible partying.</p>
+            <p id="ThankYou">Thank you!</p>
         </div>
 
         <div class="content text-center" id="ImagesContent">
-            <p id="ImagesText">Some slideshow of images</p>
+            <div id="slideshow-box">
+                <img class="slideshow img-responsive" src="images/slide-1.jpg">
+                <img class="slideshow img-responsive" src="images/slide-2.jpg">
+                <img class="slideshow img-responsive" src="images/slide-3.jpg">
+                <img class="slideshow img-responsive" src="images/slide-4.jpg">
+                <img class="slideshow img-responsive" src="images/slide-5.jpg">
+                <img class="slideshow img-responsive" src="images/slide-6.jpg">
+                <img class="slideshow img-responsive" src="images/slide-7.jpg">
+                <img class="slideshow img-responsive" src="images/slide-8.jpg">
+                <img class="slideshow img-responsive" src="images/slide-9.jpg">
+                <img class="slideshow img-responsive" src="images/slide-10.jpg">
+                <img class="slideshow img-responsive" src="images/slide-11.jpg">
+                <img class="slideshow img-responsive" src="images/slide-12.jpg">
+                <img class="slideshow img-responsive" src="images/slide-13.jpg">
+                <img class="slideshow img-responsive" src="images/slide-14.jpg">
+                <img class="slideshow img-responsive" src="images/slide-15.jpg">
+                <img class="slideshow img-responsive" src="images/slide-16.jpg">
+                <img class="slideshow img-responsive" src="images/slide-17.jpg">
+                <img class="slideshow img-responsive" src="images/slide-18.jpg">
+                <img class="slideshow img-responsive" src="images/slide-19.jpg">
+            </div>
+            <button class="slide-buttons" onclick="changeImage(-1)">&#10094;</button>
+            <button class="slide-buttons" onclick="changeImage(+1)">&#10095;</button>             
         </div>
 
         <div class="content text-center" id="ReservationsContent">
-            <p id="AboutText">Some calendar/platform to pay</p>
+            <p id="ReservationText"> To make a reservation, please fill in the boxes below! </p>
+            <form name="reserve">
+                <p id="name"> What is your name? </p>
+                <input type="text" name="name-field" value=""><br><br>
+                
+                <p id="email"> What is your e-mail address? </p>
+                <input type="text" name="email-field" value=""><br><br>
+
+                <p id="startdate"> From what date would you like to rent? </p>
+                <input type="date" name="startdate-field" value=""><br><br>
+            
+                <p id="enddate"> Until what date would you like to rent? </p>
+                <input type="date" name="enddate-field" value=""><br><br>
+
+                <p id="othercomments">Please write any other comments you have.</p>
+                <input type="text" name="message-field" value=""><br><br>
+
+                <input type="button" name="submit" value="Submit!" onClick="sendEmail(this.form)">
+            </form>
+
         </div>
         </div>
     </div><!--/#main-body-->
@@ -79,10 +125,10 @@
     </footer>
 
     <!--Scripts-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/navbar-scroll.js"></script>
     <script src="js/button-scroll.js"></script>
     <script src="js/langwriter.js"></script>
+    <script src="js/slideshow-controller.js"></script>
 
 </body>
 
