@@ -98,23 +98,26 @@
         <div class="content text-center" id="ReservationsContent">
             <p id="ReservationText"> To make a reservation, please fill in the boxes below! </p>
             <form name="reserve">
-                <p id="name"> What is your name? </p>
-                <input type="text" name="name-field" value=""><br><br>
+                <p id="name-label"> What is your name? </p>
+                <input type="text" name="name" value=""><br><br>
                 
-                <p id="email"> What is your e-mail address? </p>
-                <input type="text" name="email-field" value=""><br><br>
+                <p id="email-label"> What is your e-mail address? </p>
+                <input type="text" name="email" value=""><br><br>
 
-                <p id="startdate"> From what date would you like to rent? </p>
-                <input type="date" name="startdate-field" value=""><br><br>
+                <p id="startdate-label"> From what date would you like to rent? </p>
+                <input type="date" name="startdate" value=""><br><br>
             
-                <p id="enddate"> Until what date would you like to rent? </p>
-                <input type="date" name="enddate-field" value=""><br><br>
+                <p id="enddate-label"> Until what date would you like to rent? </p>
+                <input type="date" name="enddate" value=""><br><br>
 
-                <p id="othercomments">Please write any other comments you have.</p>
-                <input type="text" name="message-field" value=""><br><br>
+                <p id="message-label">Please write any other comments you have.</p>
+                <input type="text" name="message" value=""><br><br>
 
-                <input type="button" name="submit" value="Submit!" onClick="sendEmail(this.form)">
+                <input id="submitbutton" type="button" name="submit" value="Submit!" onClick="sendEmail(this.form)">
+
             </form>
+                <br>
+                <p id="alternative-text"></p>
         </div>
     </div><!--/#main-body-->
 
@@ -127,6 +130,7 @@
     <script src="js/button-scroll.js"></script>
     <script src="js/langwriter.js"></script>
     <script src="js/slideshow-controller.js"></script>
+    <script src="js/form-controller.js"></script>
 
 </body>
 
