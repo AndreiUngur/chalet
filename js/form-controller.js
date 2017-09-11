@@ -70,7 +70,7 @@ function sendEmail(form){
 
 	$('#alternative-text').text("Please send the following e-mail to romeo_horvath@yahoo.ca:\n"+body);
 
-	document.location.href = "mailto:test@hotmail.com?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
+	document.location.href = "mailto:romeo_horvath@yahoo.ca?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
 
 }
 
