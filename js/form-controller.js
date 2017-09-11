@@ -68,8 +68,18 @@ function sendEmail(form){
 		body+=",\n"+form.name.value;
 	}
 
-	$('#alternative-text').text("Please send the following e-mail to romeo_horvath@yahoo.ca:\n"+body);
-
+	switch(language){
+		case "EN":
+			$('#alternative-text').text("Please send an e-mail to romeo_horvath@yahoo.ca with the following message:\n"+body);
+			break;
+		case "FR":
+			$('#alternative-text').text("Veuillez s’il-vous-plait envoyer un courriel à romeo_horvath@yahoo.ca avec le message suivant: romeo_horvath@yahoo.ca:\n"+body);
+			break;
+		case "RO":
+			$('#alternative-text').text("Va rugam sa trimiteți un e-mail la romeo_horvath@yahoo.ca cu acest mesaj:\n"+body);
+			break;
+	}
+	
 	document.location.href = "mailto:romeo_horvath@yahoo.ca?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
 
 }

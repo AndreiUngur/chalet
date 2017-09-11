@@ -2,7 +2,7 @@ var ENG;
 var FR;
 var RO;
 var lang_data = {"EN":"","FR":"","RO":""};
-var language;
+var language="EN";
 
 //Set-up on document start
 $(document).ready(function() {
@@ -82,6 +82,12 @@ function writeData(lang){
 	//Reservations
 	$('#ReservationsText').text(lang_data[lang].reservations);
 	$('#ReservationsTitle').text(lang_data[lang].reservationstitle);
+	$('#ReservationText').text(lang_data[lang].reservationsinfo);
+	$('#name-label').text(lang_data[lang].reservationsname);
+	$('#email-label').text(lang_data[lang].reservationsemail);
+	$('#startdate-label').text(lang_data[lang].reservationsstartdate);
+	$('#enddate-label').text(lang_data[lang].reservationsenddate);
+	$('#message-label').text(lang_data[lang].reservationscomments);
 
 	//Title
 	$('#main-title').text(lang_data[lang].title);

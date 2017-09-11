@@ -7,5 +7,11 @@
 	"abouttitle":"À propos",
 	"imagestitle":"Images",
 	"reservationstitle":"Réservations",
+	"reservationsinfo":"Pour réserver, complétez ce formulaire!",
+	"reservationsname":"Quel est votre nom?",
+	"reservationsemail":"Quelle est votre addresse de courriel?",
+	"reservationsstartdate":"À partir de quelle date aimeriez-vous réserver?",
+	"reservationsenddate":"Jusqu'à quelle date aimeriez-vous réserver?",
+	"reservationscomments":"Écrivez ici d'autres questions que vous avez.",
 	"title":"Chalet"
 }
