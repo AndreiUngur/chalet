@@ -60,7 +60,7 @@ function sendEmail(form){
 	var subject = "Reservation -- "+startdate+" to "+enddate+" by "+form.email.value;
 	var body="Hi,\nI would like to make a reservation from "+startdate+" to "+enddate+".\nYou may reach me at "+form.email.value+".\n";
 	if(form.message.value){
-		body+=message+"\n";
+		body+=form.message.value+"\n";
 	}
 
 	body+="Thank you";
