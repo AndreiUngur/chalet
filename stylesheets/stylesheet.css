@@ -1,11 +1,11 @@
 .content{
 	margin-top:15vh;
-	margin-bottom:30vh;
-	display:none;
+	margin-bottom:10vh;
+	font-size:20px;
 }
 
-#AboutContent{
-	display:block;
+ul {
+	margin-left:12vw;
 }
 
 
@@ -15,24 +15,29 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 100vh;
+}
+
+.header-background{
+	background-image: url("../images/room-headers.jpg");
+	background-attachment:fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 10vh;
+	font-size: 50px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.jumbotron{
 	min-height:100vh;
 }
 
 .main-images{
 	min-height:100%;
 	min-width:100%;
-}
-
-.headers{
-	margin-top:10vh;
-	margin-left:10vw;
-	cursor:pointer;
-}
-
-.header{
-	display:inline;
-	margin-left:10vw;
-	margin-right:10vw;
 }
 
 .About{
@@ -46,6 +51,10 @@
 	margin-left:62%;
 }
 
+img{
+	max-height: 60vh;
+}
+
 .slideshow{
 	width:70%;
 	margin:0 auto;
@@ -54,7 +63,7 @@
 #slideshow-box{
 	margin: 0 auto;
 	overflow: scroll;
-	height:85vh;
+	height:100%;
 }
 
 .slide-buttons{
@@ -66,7 +75,7 @@
 	transition:0.5s;
 }
 
-hr{;
+hr{
 	height: 0.5rem;
 	width:23%;
 	background:#320B00;
@@ -83,18 +92,35 @@ hr{;
 	border-style:solid;
 	background-color:white;
 	margin:0 auto;
-	margin-top:-18vh;
-	opacity:0.5;
+	margin-top:-125px;
+	opacity:0.8;
 	position:relative;
 	z-index: 1;
 }
 
 h1{
-	margin-top:22vh;
-	font-size:2em;
+	font-size: 50px;
 	color: #000000 !important;
-	position:relative;
 	z-index: 2;
+}
+
+.header{
+	color: white !important;
+}
+
+#main-title{
+	margin-top: 250px;
+	position: relative;
+}
+
+@media screen and (max-width:500px){
+	h1, .header{
+		font-size: 35px;
+	}
+
+	.content{
+		font-size: 16px;
+	}
 }
 
 p{

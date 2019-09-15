@@ -73,21 +73,30 @@ function writeData(lang){
 	$('#AboutText').text(lang_data[lang].about);
 	$('#PleaseNote').text(lang_data[lang].please_note);
 	$('#ThankYou').text(lang_data[lang].thank_you);
-	$('#AboutTitle').text(lang_data[lang].abouttitle);
+	$('#AboutLink').text(lang_data[lang].about_title);
+	$('#AboutTitle').text(lang_data[lang].about_title);
+
+	$('#includes1').text(lang_data[lang].includes1);
+	$('#includes2').text(lang_data[lang].includes2);
+	$('#includes3').text(lang_data[lang].includes3);
+	$('#includes4').text(lang_data[lang].includes4);
 
 	//Images
 	$('#ImagesText').text(lang_data[lang].images);
-	$('#ImagesTitle').text(lang_data[lang].imagestitle);	
+	$('#ImagesLink').text(lang_data[lang].images_title);
+	$('#ImagesTitle').text(lang_data[lang].images_title);	
 	
 	//Reservations
 	$('#ReservationsText').text(lang_data[lang].reservations);
-	$('#ReservationsTitle').text(lang_data[lang].reservationstitle);
-	$('#ReservationText').text(lang_data[lang].reservationsinfo);
-	$('#name-label').text(lang_data[lang].reservationsname);
-	$('#email-label').text(lang_data[lang].reservationsemail);
-	$('#startdate-label').text(lang_data[lang].reservationsstartdate);
-	$('#enddate-label').text(lang_data[lang].reservationsenddate);
-	$('#message-label').text(lang_data[lang].reservationscomments);
+	$('#ReservationsLink').text(lang_data[lang].reservations_title);
+	$('#ReservationsTitle').text(lang_data[lang].reservations_title);
+	$('#ReservationSpec').text(lang_data[lang].reservations_spec);
+	$('#ReservationText').text(lang_data[lang].reservations_text);
+
+	$('#restrictions1').text(lang_data[lang].restrictions1);
+	$('#restrictions2').text(lang_data[lang].restrictions2);
+	$('#restrictions3').text(lang_data[lang].restrictions3);
+	$('#restrictions4').text(lang_data[lang].restrictions4);
 
 	//Title
 	$('#main-title').text(lang_data[lang].title);

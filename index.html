@@ -43,35 +43,39 @@
             <ul class="nav navbar-nav">
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li class="About"><a href="#AboutContent">About</a></li>
-                <li class="Images"><a href="#ImagesContent">Images</a></li>
-                <li class="Reservations"><a href="#ReservationsContent" >Reservations</a></li>
+                <li class="About"><a id="AboutLink" href="#AboutTitle">About</a></li>
+                <li class="Images"><a id="ImagesLink" href="#ImagesTitle">Images</a></li>
+                <li class="Reservations"><a id="ReservationsLink" href="#ReservationsTitle" >Reservations</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
 
     <div class="jumbotron">
-        
         <h1 class="text-center" id="main-title"> Château Beau Soleil </h1>
         <div class="info">
         </div>
     </div>
 
     <div id="main-body">
-        <div class="text-center headers">
-            <h1 class="header About" id="AboutTitle"> About </h1>
-            <h1 class="header Images" id="ImagesTitle"> Images </h1>
-            <h1 class="header Reservations" id="ReservationsTitle"> Reservations </h1>
-            <hr id="slider" />
+        <div class="header-background">
+            <h1 id="AboutTitle" class="header"> About </h1>
         </div>
-
-        <div class="content text-center" id="AboutContent">
-            <p id="AboutText">Beautiful chalet in the Mont-Tremblant area for rent ! It has 4 big recently renovated rooms, in excellent condition, with 5 beds : 4 Queen and 1 double, as well as a sofa bed fitting two. The terrain also has 2 ponds and 20 acres of forest for strolls. The chalet has a restroom and a bathroom. Contact us to rent it (up to 8 people, 3 nights minimum) for the low price of $125 per week day, and $300 per week-end day!</p>
-            <p id="PleaseNote">PLEASE NOTE: To maintain the great condition of the chalet, please note that it is non-smoking and no animals inside the chalet. Also, please abstain from irresponsible partying.</p>
-            <p id="ThankYou">Thank you!</p>
+        <div class="content" id="AboutContent">
+          <p id="AboutText">Beautiful chalet in the Mont-Tremblant area for rent ! The chalet includes:</p>
+          <ul>
+            <li id="includes1">4 big recently renovated rooms, in excellent condition</li>
+            <li id="includes2">5 beds : 4 Queen and 1 double</li>
+            <li id="includes3">A sofa bed fitting two</li>
+            <li id="includes4">A restroom and a bathroom</li>
+            <li id="includes5">A terrain with 2 ponds and 20 acres of forest for strolls</li>
+          </ul>
+          <p id="PleaseNote">PLEASE NOTE: To maintain the great condition of the chalet, it is non-smoking and no animals inside the chalet. Also, please abstain from irresponsible partying.</p>
+          <p id="ThankYou">Thank you!</p>
         </div>
-
+        <div class="header-background">
+            <h1 id="ImagesTitle" class="header"> Images </h1>
+        </div>
         <div class="content text-center" id="ImagesContent">
             <div id="slideshow-box">
                 <img class="slideshow img-responsive" alt="chalet" src="images/slide-1.jpg">
@@ -97,30 +101,18 @@
             <button class="slide-buttons" onclick="changeImage(-1)">&#10094;</button>
             <button class="slide-buttons" onclick="changeImage(+1)">&#10095;</button>             
         </div>
-
-        <div class="content text-center" id="ReservationsContent">
-            <p id="ReservationText"> To make a reservation, please fill in the boxes below! </p>
-            <form name="reserve">
-                <p id="name-label"> What is your name? </p>
-                <input type="text" name="name" value=""><br><br>
-                
-                <p id="email-label"> What is your e-mail address? </p>
-                <input type="text" name="email" value=""><br><br>
-
-                <p id="startdate-label"> From what date would you like to rent? </p>
-                <input type="date" name="startdate" value=""><br><br>
-            
-                <p id="enddate-label"> Until what date would you like to rent? </p>
-                <input type="date" name="enddate" value=""><br><br>
-
-                <p id="message-label">Please write any other comments you have.</p>
-                <input type="text" name="message" value=""><br><br>
-
-                <input id="submitbutton" type="button" name="submit" value="Submit!" onClick="sendEmail(this.form)">
-
-            </form>
-                <br>
-                <p id="alternative-text"></p>
+        <div class="header-background">
+            <h1 id="ReservationsTitle" class="header"> Reservations </h1>
+        </div>
+        <div class="content" id="ReservationsContent">
+            <p id="ReservationSpec">Contact us to rent it for the low price of $125 per week day, and $300 per week-end day!</p>
+            <p><span id="ReservationText">To make a reservation, please contact Romeo: </span><a href="mailto:romeo_horvath@yahoo.ca">romeo_horvath@yahoo.ca</a></p>
+            <ul class="Restrictions">
+                <li id="restrictions1">Please be sure to include your full name</li>
+                <li id="restrictions2">Please include the start and end dates for your reservation</li>
+                <li id="restrictions3">The reservation may be for up to 8 people</li>
+                <li id="restrictions4">The reservation must be for at least 3 nights</li>
+            </ul>
         </div>
     </div><!--/#main-body-->
 
@@ -129,11 +121,8 @@
     </footer>
 
     <!--Scripts-->
-    <script src="js/navbar-scroll.js"></script>
-    <script src="js/button-scroll.js"></script>
     <script src="js/langwriter.js"></script>
     <script src="js/slideshow-controller.js"></script>
-    <script src="js/form-controller.js"></script>
 
 </body>
 
