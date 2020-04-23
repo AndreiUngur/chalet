@@ -76,12 +76,7 @@ img{
 }
 
 hr{
-	height: 0.5rem;
-	width:23%;
-	background:#320B00;
-	margin:0;
-	margin-top:1vh;
-	border:none;
+	width: 90%;
 	transition:.3s ease-in-out;
 }
 

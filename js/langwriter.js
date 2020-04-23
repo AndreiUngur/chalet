@@ -70,16 +70,18 @@ $('#RO-select').click(function($e){
 function writeData(lang){
 	language = lang;
 	//About
-	$('#AboutText').text(lang_data[lang].about);
+	for(var i=0; i < lang_data[lang].about.length; i++){
+		$('#AboutText' + i).text(lang_data[lang].about[i]);
+	}
+
 	$('#PleaseNote').text(lang_data[lang].please_note);
 	$('#ThankYou').text(lang_data[lang].thank_you);
 	$('#AboutLink').text(lang_data[lang].about_title);
 	$('#AboutTitle').text(lang_data[lang].about_title);
 
-	$('#includes1').text(lang_data[lang].includes1);
-	$('#includes2').text(lang_data[lang].includes2);
-	$('#includes3').text(lang_data[lang].includes3);
-	$('#includes4').text(lang_data[lang].includes4);
+	for(var i=0; i < lang_data[lang].includes.length; i++){
+		$('#includes' + i).text(lang_data[lang].includes[i]);
+	}
 
 	//Images
 	$('#ImagesText').text(lang_data[lang].images);
@@ -93,11 +95,12 @@ function writeData(lang){
 	$('#ReservationSpec').text(lang_data[lang].reservations_spec);
 	$('#ReservationText').text(lang_data[lang].reservations_text);
 
-	$('#restrictions1').text(lang_data[lang].restrictions1);
-	$('#restrictions2').text(lang_data[lang].restrictions2);
-	$('#restrictions3').text(lang_data[lang].restrictions3);
-	$('#restrictions4').text(lang_data[lang].restrictions4);
+	for(var i=0; i < lang_data[lang].restrictions.length; i++){
+		$('#restrictions' + i).text(lang_data[lang].restrictions[i]);
+	}
 
 	//Title
 	$('#main-title').text(lang_data[lang].title);
+
+	$('#establishment').text(lang_data[lang].establishment);
 }

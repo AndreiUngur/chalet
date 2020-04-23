@@ -1,22 +1,32 @@
 {
-	"about":"Beau chalet situé dans la région de Mont-Tremblant à louer ! Le chalet comprend: ",
-	"includes1": "4 Chambres rénovées récemment en excellente condition",
-	"includes2": "5 lits : 4 Queen et 1 double",
-	"includes3": "Un sofa-lit de deux places",
-	"includes4": "Une salle de bain complète (avec douche) et une toilette",
-	"includes5": "Un terrain avec 2 étangs et 20 acres de forêt pour la promenade",
+	"about": [
+		"Le Château Beau-Soleil est l'endroit parfait pour passer de belles vacances, que ce soit pour une semaine d'évasion ou une fin de semaine de détente.",
+		"Situé près du Mont-Tremblant et des Chutes Archambeault, le chalet est à proximité de sentiers de motoneige fédérés. Il y a également plusieurs points de service à moins de 10 minutes de voiture, quelques restaurants et le Centre Kanata Aki.",
+		"Sur un terrain énorme de 20 acres, avec un peu de chance, vous pourrez même croiser quelques beaux animaux sauvages tels que des loutres, des chevreuils ou des renards.",
+		"Nous vous offrons également un jacuzzi et un sauna baril, mais on compte sur vous pour les mimosas.",
+		"Bienvenue!",
+		"Le chalet comprend: "
+	],
+	"includes": [
+		"4 Chambres rénovées récemment en excellente condition",
+		"5 lits : 4 Queen et 1 double",
+		"Un sofa-lit de deux places",
+		"Une salle de bain complète (avec douche) et une toilette",
+		"Un terrain avec 2 étangs et 20 acres de forêt pour la promenade"
+	],
 	"please_note":"NOTEZ BIEN : Afin de maintenir l’excellente condition du chalet, s’il-vous-plaît notez que le chalet est non-fumeur et non pour les animaux à l’intérieur du chalet. On encourage les fêtards irresponsables de s’abstenir.",
 	"thank_you":"Merci!",
-	"images":"Quelques diapositives d'images",
-	"reservations":"Une sorte de calendrier et une plateforme pour payer",
 	"about_title":"À propos",
 	"images_title":"Images",
 	"reservations_title":"Réservations",
-	"reservations_spec": "Contactez-nous pour le louer pour seulement $125 par nuit en temps de semaine et $300 par nuit de fin de semaine!",
+	"reservations_spec": "Contactez-nous pour le louer pour seulement $1200 par semaine et $650 par fin de semaine!",
 	"reservations_text": "Pour réserver, contactez Romeo: ",
-	"restrictions1": "Assurez-vous d'inclure votre nom complet",
-	"restrictions2": "Assurez-vous d'inclure les dates souhaitées",
-	"restrictions3": "Nous n'acceptons pas de réservations pour plus de 8 personnes",
-	"restrictions4": "Nous n'acceptons pas de réservations pour moins de 3 nuits",
-	"title":"Château Beau Soleil"
+	"restrictions": [
+		"Assurez-vous d'inclure votre nom complet",
+		"Assurez-vous d'inclure les dates souhaitées",
+		"Nous n'acceptons pas de réservations pour plus de 8 personnes",
+		"Nous n'acceptons pas de réservations pour moins de 3 nuits"
+	],
+	"title":"Château Beau Soleil",
+	"establishment": "Numéro d'établissement: 296263"
 }

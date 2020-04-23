@@ -1,22 +1,32 @@
 {
-	"about":"Chalet frumos în regiunea Mont-Tremblant de închiriat! Include: ",
-	"includes1": "4 Camere renovate recent în condiție excelenta",
-	"includes2": "5 paturi: 4 Queen și 1 dublu",
-	"includes3": "Un sofa-bed de doua locuri",
-	"includes4": "O baie (completa cu duș) și un WC-u simplu",
-	"includes5": "Un teren cu 2 lacuri și 20 de acri de pădure pentru plimbării",
-	"please_note":"NOTA BENE: Pentru a putea menține condiția excelata chalet-ului, va rugam sa notați ca chalet-ul e non-fumator și nu lăsam animalele în interior-ul chalet-ului. Va încurajam sa va abțineți de petreceri iresponsabile.",
+	"about":[
+		"Château Beau-Soleil e locația perfectă pentru o vacanță frumoasă, fie o escursie de o săptămână completă sau doar un week-end relaxant.",
+		"Situat aproape de Mont-Tremblant și cascada Archambeault, chalet-ul e in proximitate de trasee de snowmobil federale. Sunt mai multe puncte de servicii la mai putin de 10 minute de masinâ, niște restaurante și Centrul Kanata Aki.",
+		"Pe un teren enorm de 20 de acre, veți putea întâlnii animale sălbatice draguțe ca și vidre, căprioare și vulpi.",
+		"Vă ofrim un jacuzzi și un sauna butoi; doar țuica nu e inclusa.",
+		"Bine ați venit!",
+		"Incluse: "
+	],
+	"includes": [
+		"4 Camere renovate recent în condiție excelenta",
+		"5 paturi: 4 Queen și 1 dublu",
+		"Un sofa-bed de doua locuri",
+		"O baie (completa cu duș) și un WC-u simplu",
+		"Un teren cu 2 lacuri și 20 de acri de pădure pentru plimbării"
+	],
+	"please_note":"NOTA BENE: Pentru a putea menține condiția excelata chalet-ului, vă rugăm să țineți cont ca chalet-ul e non-fumator și nu lăsam animalele în interior-ul chalet-ului. Va încurajam sa va abțineți de petreceri iresponsabile.",
 	"thank_you":"Mersi!",
-	"images":"Un slideshow cu ceva poze",
-	"reservations":"Un calendar sau ceva platforma sa se poata platii",
 	"about_title":"Despre noi",
 	"images_title":"Imagini",
 	"reservations_title":"Reservații",
-	"reservation_spec": "Contactați-ne sa închiriații (pana la 8 persoane, 3 nopți minim) pentru numai $125 pe noapte în timp de săptămâna și $300 pe noapte de week-end!",
-	"reservation_text": "Pentru a rezerva, contactați pe Romeo: ",
-	"restrictions1": "Asigurați-vă să includeți numele vostr-ul complet",
-	"restrictions2": "Asigurați-vă să includeți zilele rezervării",
-	"restrictions3": "Nu acceptăm rezervări pentru mai mult de 8 persoane",
-	"restrictions4": "Nu acceptăm rezervări pentru mai puțin de 3 nopți",
-	"title":"Château Beau Soleil"
+	"reservations_spec": "Contactați-ne sa închiriații (până la 8 persoane, 3 nopți minim) pentru numai $1200 pe săptămâna și $650 pe week-end!",
+	"reservations_text": "Pentru a rezerva, vă rugăm să îl contactați pe Romeo: ",
+	"restrictions": [
+		"Asigurați-vă să includeți numele vostr-ul complet",
+		"Asigurați-vă să includeți zilele rezervării",
+		"Nu acceptăm rezervări pentru mai mult de 8 persoane",
+		"Nu acceptăm rezervări pentru mai puțin de 3 nopți"
+	],
+	"title":"Château Beau Soleil",
+	"establishment": "Numărul de institutie: 296263"
 }
