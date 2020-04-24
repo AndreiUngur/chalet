@@ -80,19 +80,6 @@ hr{
 	transition:.3s ease-in-out;
 }
 
-.info{
-	max-width:80vw;
-	height:20vh;
-	border-color:black;
-	border-style:solid;
-	background-color:white;
-	margin:0 auto;
-	margin-top:-125px;
-	opacity:0.8;
-	position:relative;
-	z-index: 1;
-}
-
 h1{
 	font-size: 50px;
 	color: #000000 !important;
@@ -104,8 +91,14 @@ h1{
 }
 
 #main-title{
-	margin-top: 250px;
+	margin-top: 25%;
+	width: 50%;
+	margin-left: 25%;
+	padding: 25px;
+	background-color: rgb(255, 255, 255, 0.7);
+	border-radius: 10px;
 	position: relative;
+	font-family: 'Pontano Sans', sans-serif;
 }
 
 @media screen and (max-width:500px){
