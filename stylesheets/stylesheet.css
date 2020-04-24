@@ -1,3 +1,9 @@
+/* latin-ext */
+@font-face {
+  font-family: 'DM Serif Text';
+  src: url('fonts/DM_Serif_Text/DMSerifText-Regular.ttf');
+}
+
 .content{
 	margin-top:15vh;
 	margin-bottom:10vh;
@@ -98,7 +104,7 @@ h1{
 	background-color: rgb(255, 255, 255, 0.7);
 	border-radius: 10px;
 	position: relative;
-	font-family: 'Pontano Sans', sans-serif;
+	font-family: 'DM Serif Text', serif;
 }
 
 @media screen and (max-width:500px){
