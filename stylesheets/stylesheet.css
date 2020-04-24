@@ -91,7 +91,7 @@ h1{
 }
 
 #main-title{
-	margin-top: 25%;
+	margin-top: 20%;
 	width: 50%;
 	margin-left: 25%;
 	padding: 25px;
@@ -104,6 +104,10 @@ h1{
 @media screen and (max-width:500px){
 	h1, .header{
 		font-size: 35px;
+	}
+
+	#main-title{
+		margin-top: 50%;
 	}
 
 	.content{
